@@ -1,0 +1,1 @@
+A basic tic-tac-toe game meant to help me learn to organize my code with factory fucntions and modules - aim was to minimize global variables as much as possible
