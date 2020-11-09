@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+.board-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+    margin-left: 31vw;
+    height: 50vh;
+    width: 30vw;
+    border-top-width: 3vh;
+    border-left-width: 3vw;
+    border-right-width: 3vw;
+    border-bottom-width: 10vh;
+    border-style: solid;
+    border-color: #0e2e8f;
+    border-bottom-left-radius: 8vh;
+    border-bottom-right-radius: 8vh;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+    background-color: #0e2e8f;
+
+}
+
+.square {
+    background-color: white;
+    border-width: .2px;
+    font-size: 13vh;
+    text-align: center;
+
+
+}
+
+.p1 {
+   
+    float: left;
+    margin-left: 4vw;
+    font-size: 20px;
+    padding: 10px;
+    
+}
+
+.p2 {
+    float: right;
+    margin-right: 4vw;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.my-turn {
+    border-style: solid;
+    border-color: green;
+    border-width: 20px;
+}
